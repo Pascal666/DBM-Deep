@@ -1,5 +1,3 @@
-.pause
-build_log
 .*.sw?
 Build
 MYMETA.*
