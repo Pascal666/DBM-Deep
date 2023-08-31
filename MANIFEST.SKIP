@@ -22,3 +22,6 @@ cover_db
 ^.git
 ^MYMETA.yml$
 ^MYMETA\.json$
+TODO
+README.md
+etc/sql_example.pl
