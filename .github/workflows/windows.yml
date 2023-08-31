@@ -13,11 +13,11 @@ jobs:
       run: perl -V
     - name: Install Dependencies
       run: |
-        cpanm Module::Build Test::Pod Test::Pod::Coverage || cat $HOME/.cpanm/work/*/build.log
+        cpanm DBD::SQLite Test::Pod Test::Pod::Coverage || cat $HOME/.cpanm/work/*/build.log
         cpanm --installdeps . || cat $HOME/.cpanm/work/*/build.log
     - name: Run Tests
       run: |
-        perl Build.PL
+        (echo y;echo y;echo)|perl Build.PL
         ./Build test
     strategy:
       fail-fast: false

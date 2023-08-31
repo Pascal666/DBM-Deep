@@ -37,9 +37,9 @@ jobs:
           PERL_USE_UNSAFE_INC: 0
         run: |
             perl -v
-            cpanm Module::Build Test::Pod Test::Pod::Coverage || cat /home/runner/.cpanm/work/*/build.log
+            cpanm DBD::SQLite Test::Pod Test::Pod::Coverage || cat /home/runner/.cpanm/work/*/build.log
             perl -Mparent -e0 || cpanm parent
             rm -rf /home/runner/.cpanm/work/*
             cpanm --installdeps . || cat /home/runner/.cpanm/work/*/build.log
-            perl Build.PL
+            (echo y;echo y;echo)|perl Build.PL
             ./Build test TEST_VERBOSE=1
