@@ -1,6 +1,6 @@
 Revision history for DBM::Deep (ordered by revision number).
 
-2.0017    2023-XX-XX
+2.0017    2023-09-01
 
 - get rid of old perl4-style ' package separator and use :: instead
   for compatibility with perl 5.38
