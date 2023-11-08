@@ -78,9 +78,7 @@ and you still have questions or concerns you can check the DBM::Deep
 Google Group at http://groups.google.com/group/DBM-Deep,
 or send an email to DBM-Deep@googlegroups.com.
 
-Finally, You can also visit #dbm-deep on irc.perl.org.
-
-The source code repository is at http://github.com/robkinyon/dbm-deep
+The source code repository is at http://github.com/DBM-Deep/DBM-Deep
 
 #### Maintainers ####
 
