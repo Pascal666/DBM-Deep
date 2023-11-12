@@ -47,7 +47,7 @@
    "provides" : {
       "DBM::Deep" : {
          "file" : "lib/DBM/Deep.pm",
-         "version" : "2.0018"
+         "version" : "2.0019"
       },
       "DBM::Deep::Array" : {
          "file" : "lib/DBM/Deep/Array.pm"
@@ -137,6 +137,6 @@
          "url" : "https://github.com/DBM-Deep/DBM-Deep"
       }
    },
-   "version" : "2.0018",
+   "version" : "2.0019",
    "x_serialization_backend" : "JSON::PP version 4.02"
 }
